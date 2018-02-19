@@ -1,0 +1,729 @@
+0000.000 (0) Opened log file at time: Fri, 10 Apr 2015 21:56:10 +0000 on http://std.xvth.tk
+0000.010 (0) UpdraftPlus WordPress backup plugin (http://updraftplus.com): 1.9.63 WP: 4.1.1 PHP: 5.3.29 (Linux a2ss13.a2hosting.com 2.6.32-531.29.2.lve1.3.11.1.el6.x86_64 #1 SMP Thu Dec 18 06:49:17 EST 2014 x86_64) MySQL: 5.5.34-cll-lve Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 60.8M | 61.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.285 (0) Free space on disk containing Updraft's temporary directory: 49283.7 Mb
+0000.301 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.760 (0) Requesting semaphore lock (fd)
+0000.920 (0) Set semaphore last lock (fd) time to 2015-04-10 21:56:11
+0000.929 (0) Semaphore lock (fd) complete
+0000.946 (0) Backup run: resumption=0, nonce=b9bd52eff4f0, begun at=1428702970 (1s ago), job type=backup
+0000.963 (0) Scheduling a resumption (1) after 300 seconds (1428703271) in case this run gets aborted
+0000.995 (0) Checking if we have a zip executable available
+0001.000 (0) Testing: /usr/bin/zip
+0001.014 (0) Output: zip warning: binziptest/test.zip not found or empty
+0001.022 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0001.026 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0001.030 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=127) (out=105) (deflated 17%)
+0001.033 (0) Output: total bytes=127, compressed=105 -> 17% savings
+0001.046 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=134) (out=109) (deflated 19%)
+0001.051 (0) Output: total bytes=261, compressed=214 -> 18% savings
+0001.068 (0) Working binary zip found: /usr/bin/zip
+0001.088 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0001.094 (0) Creation of backups of directories: beginning
+0001.111 (0) Beginning creation of dump of plugins (split every: 500 Mb)
+0001.453 (0) Total entities for the zip file: 197 directories, 1209 files (0 skipped as non-modified), 17.3 Mb
+0001.466 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0001.475 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0001.537 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0001.559 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0001.572 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0001.577 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.6 Mb, 1209 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0007.991 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip.tmp: size is now: 4.70 Mb
+0008.011 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip.tmp: 600 files added (on-disk size: 4774.3 Kb)
+0008.027 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip.tmp: 700 files added (on-disk size: 4774.3 Kb)
+0008.043 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip.tmp: 800 files added (on-disk size: 4774.3 Kb)
+0008.057 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip.tmp: 900 files added (on-disk size: 4774.3 Kb)
+0008.073 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip.tmp: 1000 files added (on-disk size: 4774.3 Kb)
+0008.077 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.5 Mb, 1209 files batched, 501 (1002) added so far); re-opening (prior size: 4774.3 Kb)
+0018.689 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip.tmp: 1100 files added (on-disk size: 5463.5 Kb)
+0018.713 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip.tmp: 1200 files added (on-disk size: 5463.5 Kb)
+0019.303 (0) Created plugins zip (0) - 5956.6 Kb in 18 s (331.6 Kb/s) (SHA1 checksum: 59ca0a2b3b0b3e2a11a1e4b8b49b84f5941b97e3)
+0019.327 (0) Beginning creation of dump of themes (split every: 500 Mb)
+0019.826 (0) Total entities for the zip file: 123 directories, 1023 files (0 skipped as non-modified), 32.8 Mb
+0019.868 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0019.893 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0019.908 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0019.926 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0019.939 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0019.947 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.5 Mb, 1023 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0026.427 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip.tmp: size is now: 10.90 Mb
+0026.478 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip.tmp: 600 files added (on-disk size: 11141.4 Kb)
+0026.492 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip.tmp: 700 files added (on-disk size: 11141.4 Kb)
+0026.507 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip.tmp: 800 files added (on-disk size: 11141.4 Kb)
+0026.529 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip.tmp: 900 files added (on-disk size: 11141.4 Kb)
+0026.572 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip.tmp: 1000 files added (on-disk size: 11141.4 Kb)
+0026.587 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.1 Mb, 1023 files batched, 501 (1002) added so far); re-opening (prior size: 11141.4 Kb)
+0039.545 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip.tmp: size is now: 14.80 Mb
+0041.684 (0) Created themes zip (0) - 15262.8 Kb in 22 s (694.2 Kb/s) (SHA1 checksum: cd99610993dbae8894c42ef632b1b383de40b58f)
+0041.742 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0041.751 (0) Looking for candidates to back up in: /home/hostxvth/public_html/lublustudio.kz/wp-content/uploads
+0041.779 (0) finding files: 2012: adding to list (1)
+0041.800 (0) finding files: 2011: adding to list (2)
+0041.807 (0) finding files: 2015: adding to list (3)
+0041.814 (0) finding files: dynamic_avia: adding to list (4)
+0041.834 (0) finding files: 2013: adding to list (5)
+0041.853 (0) Beginning creation of dump of uploads (split every: 500 Mb)
+0042.451 (0) Total entities for the zip file: 11 directories, 3400 files (0 skipped as non-modified), 225.2 Mb
+0042.494 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0042.512 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0042.527 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0042.539 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25 Mb, 3400 files batched, 369 (369) added so far); re-opening (prior size: 0 Kb)
+0047.953 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: size is now: 24.70 Mb
+0048.330 (0) A useful amount of data was added after this amount of zip processing: 6.5 s (normalised: 6.5 s, rate: 3912.7 Kb/s)
+0048.419 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 400 files added (on-disk size: 25282.4 Kb)
+0048.457 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 500 files added (on-disk size: 25282.4 Kb)
+0048.479 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 600 files added (on-disk size: 25282.4 Kb)
+0048.503 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 700 files added (on-disk size: 25282.4 Kb)
+0048.542 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25 Mb, 3400 files batched, 396 (765) added so far); re-opening (prior size: 25282.4 Kb)
+0071.200 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: size is now: 49.40 Mb
+0071.224 (0) A useful amount of data was added after this amount of zip processing: 23.4 s (normalised: 23.4 s, rate: 1093.5 Kb/s)
+0071.270 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 800 files added (on-disk size: 50632 Kb)
+0071.289 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 900 files added (on-disk size: 50632 Kb)
+0071.303 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 1000 files added (on-disk size: 50632 Kb)
+0071.333 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 1100 files added (on-disk size: 50632 Kb)
+0071.354 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25.1 Mb, 3400 files batched, 349 (1114) added so far); re-opening (prior size: 50632 Kb)
+0094.019 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: size is now: 74.10 Mb
+0094.084 (0) A useful amount of data was added after this amount of zip processing: 23.3 s (normalised: 23.2 s, rate: 1103.4 Kb/s)
+0094.109 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 1200 files added (on-disk size: 75897.2 Kb)
+0094.130 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 1300 files added (on-disk size: 75897.2 Kb)
+0094.154 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 1400 files added (on-disk size: 75897.2 Kb)
+0094.170 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25 Mb, 3400 files batched, 375 (1489) added so far); re-opening (prior size: 75897.2 Kb)
+0138.172 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: size is now: 98.70 Mb
+0138.220 (0) A useful amount of data was added after this amount of zip processing: 44.4 s (normalised: 44.4 s, rate: 576.5 Kb/s)
+0138.239 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 1500 files added (on-disk size: 101033 Kb)
+0138.259 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 1600 files added (on-disk size: 101033 Kb)
+0138.294 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 1700 files added (on-disk size: 101033 Kb)
+0138.325 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 1800 files added (on-disk size: 101033 Kb)
+0138.347 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 1900 files added (on-disk size: 101033 Kb)
+0138.362 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25.1 Mb, 3400 files batched, 414 (1903) added so far); re-opening (prior size: 101033 Kb)
+0192.891 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: size is now: 123.50 Mb
+0192.919 (0) A useful amount of data was added after this amount of zip processing: 55.1 s (normalised: 55 s, rate: 465.8 Kb/s)
+0192.942 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 2000 files added (on-disk size: 126474.7 Kb)
+0192.958 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 2100 files added (on-disk size: 126474.7 Kb)
+0192.979 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 2200 files added (on-disk size: 126474.7 Kb)
+0192.999 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 2300 files added (on-disk size: 126474.7 Kb)
+0193.005 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25 Mb, 3400 files batched, 402 (2305) added so far); re-opening (prior size: 126474.7 Kb)
+0266.041 (0) The scheduled resumption is within 45 seconds - will reschedule
+0266.777 (0) Rescheduling resumption 1: moving to 345 seconds from now (1428703581)
+0266.905 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0266.980 (0) A useful amount of data was added after this amount of zip processing: 74.2 s (normalised: 74.1 s, rate: 345.3 Kb/s)
+0267.018 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 2400 files added (on-disk size: 151697.2 Kb)
+0267.074 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 2500 files added (on-disk size: 151697.2 Kb)
+0267.138 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 2600 files added (on-disk size: 151697.2 Kb)
+0267.165 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25 Mb, 3400 files batched, 350 (2655) added so far); re-opening (prior size: 151697.2 Kb)
+0331.118 (0) The time we have been running (331) is approaching the resumption interval (345) - increasing resumption interval to 362
+0336.813 (0) The time we have been running (336.8) is approaching the resumption interval (362) - increasing resumption interval to 367
+0342.039 (0) The time we have been running (342) is approaching the resumption interval (367) - increasing resumption interval to 372
+0342.049 (0) A useful amount of data was added after this amount of zip processing: 75.3 s (normalised: 75.2 s, rate: 340.4 Kb/s)
+0342.073 (0) The time we have been running (342.1) is approaching the resumption interval (372) - increasing resumption interval to 373
+0342.096 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 2700 files added (on-disk size: 176769.5 Kb)
+0342.109 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 2800 files added (on-disk size: 176769.5 Kb)
+0342.160 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 2900 files added (on-disk size: 176769.5 Kb)
+0342.192 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 3000 files added (on-disk size: 176769.5 Kb)
+0342.203 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 Mb added on this batch (25 Mb, 3400 files batched, 370 (3025) added so far); re-opening (prior size: 176769.5 Kb)
+0415.625 (0) The time we have been running (415.6) is approaching the resumption interval (373) - increasing resumption interval to 446
+0420.900 (0) The time we have been running (420.9) is approaching the resumption interval (446) - increasing resumption interval to 451
+0426.289 (0) The time we have been running (426.3) is approaching the resumption interval (451) - increasing resumption interval to 457
+0426.301 (0) A useful amount of data was added after this amount of zip processing: 84.5 s (normalised: 84.4 s, rate: 303.3 Kb/s)
+0426.317 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 3100 files added (on-disk size: 202054.1 Kb)
+0426.334 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 3200 files added (on-disk size: 202054.1 Kb)
+0426.356 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 3300 files added (on-disk size: 202054.1 Kb)
+0426.370 (0) Zip: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip.tmp: 3400 files added (on-disk size: 202054.1 Kb)
+0509.500 (0) The time we have been running (509.5) is approaching the resumption interval (457) - increasing resumption interval to 540
+0515.107 (0) The time we have been running (514.8) is approaching the resumption interval (540) - increasing resumption interval to 545
+0520.014 (0) The time we have been running (520) is approaching the resumption interval (545) - increasing resumption interval to 550
+0522.083 (0) Created uploads zip (0) - 226906.4 Kb in 479.8 s (472.9 Kb/s) (SHA1 checksum: 11a563e328510bd2b59883a04abe3c26053dea1e)
+0522.099 (0) Beginning backup of other directories found in the content directory (index: 0)
+0522.105 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups
+0522.117 (0) Looking for candidates to back up in: /home/hostxvth/public_html/lublustudio.kz/wp-content
+0522.130 (0) finding files: uploads: skipping: this is the uploads directory
+0522.141 (0) finding files: updraft: skipping: this is the updraft directory
+0522.146 (0) finding files: index.php: adding to list (1)
+0522.151 (0) finding files: languages: adding to list (2)
+0522.169 (0) finding files: plugins: skipping: this is the plugins directory
+0522.174 (0) finding files: upgrade: skipping: excluded by options
+0522.180 (0) finding files: themes: skipping: this is the themes directory
+0522.506 (0) Total entities for the zip file: 3 directories, 18 files (0 skipped as non-modified), 1.7 Mb
+0523.213 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-others.zip.tmp: size is now: 0.50 Mb
+0523.251 (0) The time we have been running (523.2) is approaching the resumption interval (550) - increasing resumption interval to 554
+0523.323 (0) Created others zip (0) - 467.3 Kb in 0.8 s (563.5 Kb/s) (SHA1 checksum: 2787ea40ba87f930e31d601dedf8c7b09f32f6fc)
+0523.352 (0) Saving backup status to database (elements: 8)
+0523.478 (0) Beginning creation of database dump (WordPress DB)
+0523.583 (0) Testing: /usr/bin/mysqldump
+0523.812 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0523.977 (0) Table stdl_options: Total expected rows (approximate): 151
+0524.113 (0) Table stdl_options: Total rows added: 234 in 0.08 seconds
+0524.123 (0) Table stdl_options: finishing file (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_options.table.gz - 91.3 Kb)
+0524.157 (0) The time we have been running (524.1) is approaching the resumption interval (554) - increasing resumption interval to 555
+0524.189 (0) Table stdl_users: Total expected rows (approximate): 1
+0524.243 (0) Table stdl_users: Total rows added: 1 in 0.05 seconds
+0524.250 (0) Table stdl_users: finishing file (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_users.table.gz - 0.5 Kb)
+0524.283 (0) Table stdl_usermeta: Total expected rows (approximate): 21
+0524.309 (0) Table stdl_usermeta: Total rows added: 21 in 0.02 seconds
+0524.314 (0) Table stdl_usermeta: finishing file (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_usermeta.table.gz - 1.3 Kb)
+0524.334 (0) Table stdl_commentmeta: Total expected rows (approximate): 3
+0524.375 (0) Table stdl_commentmeta: Total rows added: 3 in 0.04 seconds
+0524.383 (0) Table stdl_commentmeta: finishing file (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_commentmeta.table.gz - 1.9 Kb)
+0524.416 (0) Table stdl_comments: Total expected rows (approximate): 33
+0524.459 (0) Table stdl_comments: Total rows added: 33 in 0.04 seconds
+0524.465 (0) Table stdl_comments: finishing file (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_comments.table.gz - 2.9 Kb)
+0524.543 (0) Table stdl_links: Total expected rows (approximate): 0
+0524.586 (0) Table stdl_links: Total rows added: 0 in 0.03 seconds
+0524.592 (0) Table stdl_links: finishing file (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_links.table.gz - 0.4 Kb)
+0524.626 (0) Table stdl_postmeta: Total expected rows (approximate): 1103
+0524.885 (0) Table stdl_postmeta: Total rows added: 1372 in 0.25 seconds
+0524.896 (0) Table stdl_postmeta: finishing file (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_postmeta.table.gz - 70.9 Kb)
+0524.938 (0) Table stdl_posts: Total expected rows (approximate): 275
+0525.083 (0) Table stdl_posts: Total rows added: 505 in 0.14 seconds
+0525.100 (0) Table stdl_posts: finishing file (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_posts.table.gz - 82.8 Kb)
+0525.138 (0) The time we have been running (525.1) is approaching the resumption interval (555) - increasing resumption interval to 556
+0525.170 (0) Table stdl_term_relationships: Total expected rows (approximate): 92
+0525.201 (0) Table stdl_term_relationships: Total rows added: 92 in 0.02 seconds
+0525.207 (0) Table stdl_term_relationships: finishing file (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_term_relationships.table.gz - 0.6 Kb)
+0525.237 (0) Table stdl_term_taxonomy: Total expected rows (approximate): 32
+0525.307 (0) Table stdl_term_taxonomy: Total rows added: 32 in 0.07 seconds
+0525.315 (0) Table stdl_term_taxonomy: finishing file (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_term_taxonomy.table.gz - 0.6 Kb)
+0525.338 (0) Table stdl_terms: Total expected rows (approximate): 32
+0525.381 (0) Table stdl_terms: Total rows added: 32 in 0.04 seconds
+0525.386 (0) Table stdl_terms: finishing file (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_terms.table.gz - 0.8 Kb)
+0525.423 (0) Table stdl_layerslider: Total expected rows (approximate): 1
+0525.482 (0) Table stdl_layerslider: Total rows added: 2 in 0.05 seconds
+0525.486 (0) Table stdl_layerslider: finishing file (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_layerslider.table.gz - 2.5 Kb)
+0525.527 (0) Table stdl_urls: Total expected rows (approximate): 4825
+0526.059 (0) Table stdl_urls: Total rows added: 4925 in 0.53 seconds
+0526.066 (0) Table stdl_urls: finishing file (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_urls.table.gz - 70.9 Kb)
+0526.090 (0) The time we have been running (526.1) is approaching the resumption interval (556) - increasing resumption interval to 557
+0526.109 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_options.table.gz (1/13): adding to final database dump
+0526.144 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_users.table.gz (2/13): adding to final database dump
+0526.161 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_usermeta.table.gz (3/13): adding to final database dump
+0526.167 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_commentmeta.table.gz (4/13): adding to final database dump
+0526.173 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_comments.table.gz (5/13): adding to final database dump
+0526.180 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_links.table.gz (6/13): adding to final database dump
+0526.187 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_postmeta.table.gz (7/13): adding to final database dump
+0526.246 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_posts.table.gz (8/13): adding to final database dump
+0526.302 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_term_relationships.table.gz (9/13): adding to final database dump
+0526.309 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_term_taxonomy.table.gz (10/13): adding to final database dump
+0526.316 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_terms.table.gz (11/13): adding to final database dump
+0526.322 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_layerslider.table.gz (12/13): adding to final database dump
+0526.329 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db-table-stdl_urls.table.gz (13/13): adding to final database dump
+0526.395 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db.gz: finished writing out complete database file (304 Kb)
+0526.416 (0) Total database tables backed up: 13 (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db.gz, size: 333581, checksum (SHA1): 380be3900d294e3f39644e234ebbee2bfd9ba94a)
+0526.425 (0) Saving backup history
+0526.445 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0526.450 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0526.454 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0526.459 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-others.zip: others: This file has not yet been successfully uploaded: will queue
+0526.464 (0) backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db.gz: db: This file has not yet been successfully uploaded: will queue
+0526.488 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0526.506 (0) Cloud backup selection (1/1): dropbox (last)
+0526.512 (0) Beginning dispatch of backup to remote (dropbox)
+0526.516 (0) Dropbox: begin cloud upload
+0526.529 (0) Dropbox: access gained
+0527.010 (0) Dropbox quota usage: normal=403.8 Mb, shared=0 Mb, total=2560 Mb, available=2156.2 Mb
+0527.018 (0) Dropbox: Attempt to upload: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip to: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip
+0528.227 (0) The time we have been running (528.2) is approaching the resumption interval (557) - increasing resumption interval to 559
+0528.241 (0) Dropbox chunked upload: 17.2 % uploaded (EnKiHwZRGJkvrQDfir-1wA, 1048576)
+0529.532 (0) The time we have been running (529.5) is approaching the resumption interval (559) - increasing resumption interval to 560
+0529.542 (0) Dropbox chunked upload: 34.4 % uploaded (EnKiHwZRGJkvrQDfir-1wA, 2097152)
+0531.167 (0) The time we have been running (531.1) is approaching the resumption interval (560) - increasing resumption interval to 562
+0531.206 (0) Dropbox chunked upload: 51.6 % uploaded (EnKiHwZRGJkvrQDfir-1wA, 3145728)
+0534.223 (0) The time we have been running (534.2) is approaching the resumption interval (562) - increasing resumption interval to 565
+0534.276 (0) Dropbox chunked upload: 68.8 % uploaded (EnKiHwZRGJkvrQDfir-1wA, 4194304)
+0535.473 (0) The time we have been running (535.4) is approaching the resumption interval (565) - increasing resumption interval to 566
+0535.485 (0) Dropbox chunked upload: 86 % uploaded (EnKiHwZRGJkvrQDfir-1wA, 5242880)
+0536.831 (0) The time we have been running (536.8) is approaching the resumption interval (566) - increasing resumption interval to 567
+0536.840 (0) Dropbox chunked upload: 100 % uploaded (EnKiHwZRGJkvrQDfir-1wA, 6099593)
+0539.399 (0) Recording as successfully uploaded: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip (f26aa4e5bc170d6d0cc84dbe4ef16e59)
+0539.691 (0) Deleting local file: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip: OK
+0539.699 (0) Dropbox: File upload success (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-plugins.zip): 5956 Kb in 12s (469 Kb/s)
+0540.147 (0) Dropbox quota usage: normal=409.6 Mb, shared=0 Mb, total=2560 Mb, available=2150.4 Mb
+0540.161 (0) Dropbox: Attempt to upload: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip to: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip
+0541.778 (0) The time we have been running (541.8) is approaching the resumption interval (567) - increasing resumption interval to 572
+0541.786 (0) Dropbox chunked upload: 6.7 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 1048576)
+0543.206 (0) The time we have been running (543.2) is approaching the resumption interval (572) - increasing resumption interval to 574
+0543.231 (0) Dropbox chunked upload: 13.4 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 2097152)
+0544.944 (0) The time we have been running (544.9) is approaching the resumption interval (574) - increasing resumption interval to 575
+0544.956 (0) Dropbox chunked upload: 20.1 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 3145728)
+0546.625 (0) The time we have been running (546.6) is approaching the resumption interval (575) - increasing resumption interval to 577
+0546.638 (0) Dropbox chunked upload: 26.8 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 4194304)
+0548.009 (0) The time we have been running (548) is approaching the resumption interval (577) - increasing resumption interval to 578
+0548.020 (0) Dropbox chunked upload: 33.5 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 5242880)
+0549.528 (0) The time we have been running (549.5) is approaching the resumption interval (578) - increasing resumption interval to 580
+0549.555 (0) Dropbox chunked upload: 40.3 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 6291456)
+0551.336 (0) The time we have been running (551.3) is approaching the resumption interval (580) - increasing resumption interval to 582
+0551.375 (0) Dropbox chunked upload: 47 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 7340032)
+0553.148 (0) The time we have been running (553.1) is approaching the resumption interval (582) - increasing resumption interval to 584
+0553.159 (0) Dropbox chunked upload: 53.7 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 8388608)
+0554.364 (0) The time we have been running (554.3) is approaching the resumption interval (584) - increasing resumption interval to 585
+0554.392 (0) Dropbox chunked upload: 60.4 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 9437184)
+0555.647 (0) The time we have been running (555.6) is approaching the resumption interval (585) - increasing resumption interval to 586
+0555.667 (0) Dropbox chunked upload: 67.1 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 10485760)
+0557.176 (0) The time we have been running (557.1) is approaching the resumption interval (586) - increasing resumption interval to 588
+0557.187 (0) Dropbox chunked upload: 73.8 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 11534336)
+0558.964 (0) The time we have been running (558.9) is approaching the resumption interval (588) - increasing resumption interval to 589
+0558.979 (0) Dropbox chunked upload: 80.5 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 12582912)
+0560.097 (0) The time we have been running (560.1) is approaching the resumption interval (589) - increasing resumption interval to 591
+0560.119 (0) Dropbox chunked upload: 87.2 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 13631488)
+0561.489 (0) The time we have been running (561.5) is approaching the resumption interval (591) - increasing resumption interval to 592
+0561.500 (0) Dropbox chunked upload: 93.9 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 14680064)
+0562.961 (0) The time we have been running (562.9) is approaching the resumption interval (592) - increasing resumption interval to 593
+0562.980 (0) Dropbox chunked upload: 100 % uploaded (9Rgwp1E5mIT9px2AGtkxrw, 15629122)
+0564.829 (0) Recording as successfully uploaded: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip (c40517bac26d08fa43c827cbd2bf40e9)
+0565.066 (0) Deleting local file: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip: OK
+0565.088 (0) Dropbox: File upload success (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-themes.zip): 15262 Kb in 24s (612 Kb/s)
+0565.499 (0) Dropbox quota usage: normal=424.5 Mb, shared=0 Mb, total=2560 Mb, available=2135.5 Mb
+0565.509 (0) Dropbox: Attempt to upload: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip to: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip
+0567.268 (0) The time we have been running (567.2) is approaching the resumption interval (593) - increasing resumption interval to 598
+0567.279 (0) The scheduled resumption is within 45 seconds - will reschedule
+0567.300 (0) Rescheduling resumption 1: moving to 643 seconds from now (1428704180)
+0567.320 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 598 + 45 = 643
+0567.331 (0) Dropbox chunked upload: 0.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 1048576)
+0570.428 (0) Dropbox chunked upload: 0.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 2097152)
+0573.045 (0) Dropbox chunked upload: 1.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 3145728)
+0576.356 (0) Dropbox chunked upload: 1.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 4194304)
+0577.913 (0) Dropbox chunked upload: 2.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 5242880)
+0579.684 (0) Dropbox chunked upload: 2.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 6291456)
+0581.173 (0) Dropbox chunked upload: 3.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 7340032)
+0582.970 (0) Dropbox chunked upload: 3.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 8388608)
+0584.086 (0) Dropbox chunked upload: 4.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 9437184)
+0585.711 (0) Dropbox chunked upload: 4.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 10485760)
+0587.186 (0) Dropbox chunked upload: 5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 11534336)
+0590.045 (0) Dropbox chunked upload: 5.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 12582912)
+0592.854 (0) Dropbox chunked upload: 5.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 13631488)
+0595.089 (0) Dropbox chunked upload: 6.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 14680064)
+0597.318 (0) Dropbox chunked upload: 6.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 15728640)
+0599.236 (0) Dropbox chunked upload: 7.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 16777216)
+0601.103 (0) Dropbox chunked upload: 7.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 17825792)
+0602.695 (0) Dropbox chunked upload: 8.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 18874368)
+0604.293 (0) Dropbox chunked upload: 8.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 19922944)
+0606.016 (0) Dropbox chunked upload: 9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 20971520)
+0607.177 (0) Dropbox chunked upload: 9.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 22020096)
+0608.588 (0) Dropbox chunked upload: 9.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 23068672)
+0610.105 (0) Dropbox chunked upload: 10.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 24117248)
+0611.939 (0) Dropbox chunked upload: 10.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 25165824)
+0613.144 (0) The time we have been running (613.1) is approaching the resumption interval (643) - increasing resumption interval to 644
+0613.158 (0) Dropbox chunked upload: 11.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 26214400)
+0614.822 (0) The time we have been running (614.8) is approaching the resumption interval (644) - increasing resumption interval to 645
+0614.834 (0) Dropbox chunked upload: 11.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 27262976)
+0616.476 (0) The time we have been running (616.5) is approaching the resumption interval (645) - increasing resumption interval to 647
+0616.487 (0) Dropbox chunked upload: 12.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 28311552)
+0618.518 (0) The time we have been running (618.5) is approaching the resumption interval (647) - increasing resumption interval to 649
+0618.562 (0) Dropbox chunked upload: 12.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 29360128)
+0619.891 (0) The time we have been running (619.8) is approaching the resumption interval (649) - increasing resumption interval to 650
+0619.902 (0) Dropbox chunked upload: 13.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 30408704)
+0621.425 (0) The time we have been running (621.4) is approaching the resumption interval (650) - increasing resumption interval to 652
+0621.437 (0) Dropbox chunked upload: 13.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 31457280)
+0623.204 (0) The time we have been running (623.2) is approaching the resumption interval (652) - increasing resumption interval to 654
+0623.234 (0) Dropbox chunked upload: 14 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 32505856)
+0625.122 (0) The time we have been running (625.1) is approaching the resumption interval (654) - increasing resumption interval to 656
+0625.135 (0) Dropbox chunked upload: 14.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 33554432)
+0626.292 (0) The time we have been running (626.3) is approaching the resumption interval (656) - increasing resumption interval to 657
+0626.300 (0) Dropbox chunked upload: 14.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 34603008)
+0628.239 (0) The time we have been running (628.2) is approaching the resumption interval (657) - increasing resumption interval to 659
+0628.249 (0) Dropbox chunked upload: 15.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 35651584)
+0629.789 (0) The time we have been running (629.8) is approaching the resumption interval (659) - increasing resumption interval to 660
+0629.798 (0) Dropbox chunked upload: 15.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 36700160)
+0632.068 (0) The time we have been running (632) is approaching the resumption interval (660) - increasing resumption interval to 663
+0632.082 (0) Dropbox chunked upload: 16.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 37748736)
+0633.402 (0) The time we have been running (633.4) is approaching the resumption interval (663) - increasing resumption interval to 664
+0633.416 (0) Dropbox chunked upload: 16.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 38797312)
+0634.969 (0) The time we have been running (634.9) is approaching the resumption interval (664) - increasing resumption interval to 665
+0634.976 (0) Dropbox chunked upload: 17.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 39845888)
+0636.463 (0) The time we have been running (636.5) is approaching the resumption interval (665) - increasing resumption interval to 667
+0636.472 (0) Dropbox chunked upload: 17.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 40894464)
+0638.187 (0) The time we have been running (638.2) is approaching the resumption interval (667) - increasing resumption interval to 669
+0638.195 (0) Dropbox chunked upload: 18.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 41943040)
+0639.312 (0) The time we have been running (639.3) is approaching the resumption interval (669) - increasing resumption interval to 670
+0639.358 (0) Dropbox chunked upload: 18.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 42991616)
+0643.090 (0) The time we have been running (643.1) is approaching the resumption interval (670) - increasing resumption interval to 674
+0643.101 (0) Dropbox chunked upload: 19 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 44040192)
+0644.825 (0) The time we have been running (644.8) is approaching the resumption interval (674) - increasing resumption interval to 675
+0644.842 (0) Dropbox chunked upload: 19.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 45088768)
+0646.529 (0) The time we have been running (646.5) is approaching the resumption interval (675) - increasing resumption interval to 677
+0646.541 (0) Dropbox chunked upload: 19.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 46137344)
+0647.727 (0) The time we have been running (647.7) is approaching the resumption interval (677) - increasing resumption interval to 678
+0647.738 (0) Dropbox chunked upload: 20.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 47185920)
+0649.032 (0) The time we have been running (649) is approaching the resumption interval (678) - increasing resumption interval to 680
+0649.041 (0) Dropbox chunked upload: 20.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 48234496)
+0650.413 (0) The time we have been running (650.4) is approaching the resumption interval (680) - increasing resumption interval to 681
+0650.453 (0) Dropbox chunked upload: 21.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 49283072)
+0652.484 (0) The time we have been running (652.5) is approaching the resumption interval (681) - increasing resumption interval to 683
+0652.493 (0) Dropbox chunked upload: 21.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 50331648)
+0653.622 (0) The time we have been running (653.6) is approaching the resumption interval (683) - increasing resumption interval to 684
+0653.645 (0) Dropbox chunked upload: 22.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 51380224)
+0655.050 (0) The time we have been running (655) is approaching the resumption interval (684) - increasing resumption interval to 686
+0655.066 (0) Dropbox chunked upload: 22.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 52428800)
+0656.608 (0) The time we have been running (656.6) is approaching the resumption interval (686) - increasing resumption interval to 687
+0656.620 (0) Dropbox chunked upload: 23 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 53477376)
+0659.069 (0) The time we have been running (659.1) is approaching the resumption interval (687) - increasing resumption interval to 690
+0659.080 (0) Dropbox chunked upload: 23.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 54525952)
+0660.829 (0) The time we have been running (660.8) is approaching the resumption interval (690) - increasing resumption interval to 691
+0660.841 (0) Dropbox chunked upload: 23.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 55574528)
+0663.619 (0) The time we have been running (663.6) is approaching the resumption interval (691) - increasing resumption interval to 694
+0663.630 (0) Dropbox chunked upload: 24.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 56623104)
+0665.088 (0) The time we have been running (665) is approaching the resumption interval (694) - increasing resumption interval to 696
+0665.159 (0) Dropbox chunked upload: 24.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 57671680)
+0666.967 (0) The time we have been running (666.9) is approaching the resumption interval (696) - increasing resumption interval to 697
+0666.993 (0) Dropbox chunked upload: 25.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 58720256)
+0668.196 (0) The time we have been running (668.2) is approaching the resumption interval (697) - increasing resumption interval to 699
+0668.219 (0) Dropbox chunked upload: 25.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 59768832)
+0669.552 (0) The time we have been running (669.5) is approaching the resumption interval (699) - increasing resumption interval to 700
+0669.570 (0) Dropbox chunked upload: 26.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 60817408)
+0671.195 (0) The time we have been running (671.2) is approaching the resumption interval (700) - increasing resumption interval to 702
+0671.224 (0) Dropbox chunked upload: 26.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 61865984)
+0673.083 (0) The time we have been running (673.1) is approaching the resumption interval (702) - increasing resumption interval to 704
+0673.094 (0) Dropbox chunked upload: 27.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 62914560)
+0674.183 (0) The time we have been running (674.2) is approaching the resumption interval (704) - increasing resumption interval to 705
+0674.192 (0) Dropbox chunked upload: 27.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 63963136)
+0675.496 (0) The time we have been running (675.5) is approaching the resumption interval (705) - increasing resumption interval to 706
+0675.509 (0) Dropbox chunked upload: 28 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 65011712)
+0677.154 (0) The time we have been running (677.1) is approaching the resumption interval (706) - increasing resumption interval to 708
+0677.185 (0) Dropbox chunked upload: 28.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 66060288)
+0678.929 (0) The time we have been running (678.9) is approaching the resumption interval (708) - increasing resumption interval to 709
+0678.937 (0) Dropbox chunked upload: 28.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 67108864)
+0680.364 (0) The time we have been running (680.3) is approaching the resumption interval (709) - increasing resumption interval to 711
+0680.389 (0) Dropbox chunked upload: 29.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 68157440)
+0681.772 (0) The time we have been running (681.7) is approaching the resumption interval (711) - increasing resumption interval to 712
+0681.791 (0) Dropbox chunked upload: 29.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 69206016)
+0683.217 (0) The time we have been running (683.2) is approaching the resumption interval (712) - increasing resumption interval to 714
+0683.224 (0) Dropbox chunked upload: 30.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 70254592)
+0685.131 (0) The time we have been running (685.1) is approaching the resumption interval (714) - increasing resumption interval to 716
+0685.155 (0) Dropbox chunked upload: 30.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 71303168)
+0686.324 (0) The time we have been running (686.3) is approaching the resumption interval (716) - increasing resumption interval to 717
+0686.336 (0) Dropbox chunked upload: 31.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 72351744)
+0687.596 (0) The time we have been running (687.6) is approaching the resumption interval (717) - increasing resumption interval to 718
+0687.610 (0) Dropbox chunked upload: 31.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 73400320)
+0690.338 (0) The time we have been running (690.3) is approaching the resumption interval (718) - increasing resumption interval to 721
+0690.350 (0) Dropbox chunked upload: 32 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 74448896)
+0692.392 (0) The time we have been running (692.4) is approaching the resumption interval (721) - increasing resumption interval to 723
+0692.406 (0) Dropbox chunked upload: 32.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 75497472)
+0696.196 (0) The time we have been running (696.2) is approaching the resumption interval (723) - increasing resumption interval to 727
+0696.216 (0) Dropbox chunked upload: 32.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 76546048)
+0698.846 (0) The time we have been running (698.8) is approaching the resumption interval (727) - increasing resumption interval to 729
+0698.860 (0) Dropbox chunked upload: 33.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 77594624)
+0700.254 (0) The time we have been running (700.2) is approaching the resumption interval (729) - increasing resumption interval to 731
+0700.279 (0) Dropbox chunked upload: 33.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 78643200)
+0702.116 (0) The time we have been running (702.1) is approaching the resumption interval (731) - increasing resumption interval to 733
+0702.124 (0) Dropbox chunked upload: 34.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 79691776)
+0703.318 (0) The time we have been running (703.3) is approaching the resumption interval (733) - increasing resumption interval to 734
+0703.326 (0) Dropbox chunked upload: 34.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 80740352)
+0704.624 (0) The time we have been running (704.6) is approaching the resumption interval (734) - increasing resumption interval to 735
+0704.637 (0) Dropbox chunked upload: 35.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 81788928)
+0706.101 (0) The time we have been running (706.1) is approaching the resumption interval (735) - increasing resumption interval to 737
+0706.112 (0) Dropbox chunked upload: 35.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 82837504)
+0707.851 (0) The time we have been running (707.8) is approaching the resumption interval (737) - increasing resumption interval to 738
+0707.865 (0) Dropbox chunked upload: 36.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 83886080)
+0709.015 (0) The time we have been running (709) is approaching the resumption interval (738) - increasing resumption interval to 740
+0709.024 (0) Dropbox chunked upload: 36.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 84934656)
+0710.604 (0) The time we have been running (710.6) is approaching the resumption interval (740) - increasing resumption interval to 741
+0710.614 (0) Dropbox chunked upload: 37 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 85983232)
+0713.043 (0) The time we have been running (713) is approaching the resumption interval (741) - increasing resumption interval to 744
+0713.062 (0) Dropbox chunked upload: 37.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 87031808)
+0714.890 (0) The time we have been running (714.9) is approaching the resumption interval (744) - increasing resumption interval to 745
+0714.903 (0) Dropbox chunked upload: 37.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 88080384)
+0716.725 (0) The time we have been running (716.7) is approaching the resumption interval (745) - increasing resumption interval to 747
+0716.740 (0) Dropbox chunked upload: 38.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 89128960)
+0718.086 (0) The time we have been running (718.1) is approaching the resumption interval (747) - increasing resumption interval to 749
+0718.098 (0) Dropbox chunked upload: 38.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 90177536)
+0719.687 (0) The time we have been running (719.7) is approaching the resumption interval (749) - increasing resumption interval to 750
+0719.705 (0) Dropbox chunked upload: 39.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 91226112)
+0721.670 (0) The time we have been running (721.7) is approaching the resumption interval (750) - increasing resumption interval to 752
+0721.691 (0) Dropbox chunked upload: 39.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 92274688)
+0722.845 (0) The time we have been running (722.8) is approaching the resumption interval (752) - increasing resumption interval to 753
+0722.856 (0) Dropbox chunked upload: 40.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 93323264)
+0724.262 (0) The time we have been running (724.2) is approaching the resumption interval (753) - increasing resumption interval to 755
+0724.271 (0) Dropbox chunked upload: 40.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 94371840)
+0726.001 (0) The time we have been running (726) is approaching the resumption interval (755) - increasing resumption interval to 756
+0726.012 (0) Dropbox chunked upload: 41.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 95420416)
+0728.414 (0) The time we have been running (728.4) is approaching the resumption interval (756) - increasing resumption interval to 759
+0728.432 (0) Dropbox chunked upload: 41.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 96468992)
+0730.131 (0) The time we have been running (729.8) is approaching the resumption interval (759) - increasing resumption interval to 760
+0730.250 (0) Dropbox chunked upload: 42 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 97517568)
+0732.094 (0) The time we have been running (732.1) is approaching the resumption interval (760) - increasing resumption interval to 763
+0732.102 (0) Dropbox chunked upload: 42.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 98566144)
+0733.667 (0) The time we have been running (733.6) is approaching the resumption interval (763) - increasing resumption interval to 764
+0733.687 (0) Dropbox chunked upload: 42.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 99614720)
+0735.476 (0) The time we have been running (735.4) is approaching the resumption interval (764) - increasing resumption interval to 766
+0735.499 (0) Dropbox chunked upload: 43.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 100663296)
+0736.797 (0) The time we have been running (736.8) is approaching the resumption interval (766) - increasing resumption interval to 767
+0736.814 (0) Dropbox chunked upload: 43.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 101711872)
+0738.140 (0) The time we have been running (738.1) is approaching the resumption interval (767) - increasing resumption interval to 769
+0738.163 (0) Dropbox chunked upload: 44.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 102760448)
+0739.644 (0) The time we have been running (739.6) is approaching the resumption interval (769) - increasing resumption interval to 770
+0739.668 (0) Dropbox chunked upload: 44.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 103809024)
+0741.396 (0) The time we have been running (741.4) is approaching the resumption interval (770) - increasing resumption interval to 772
+0741.411 (0) Dropbox chunked upload: 45.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 104857600)
+0742.526 (0) The time we have been running (742.5) is approaching the resumption interval (772) - increasing resumption interval to 773
+0742.537 (0) Dropbox chunked upload: 45.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 105906176)
+0745.229 (0) The time we have been running (745.2) is approaching the resumption interval (773) - increasing resumption interval to 776
+0745.256 (0) Dropbox chunked upload: 46 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 106954752)
+0746.900 (0) The time we have been running (746.9) is approaching the resumption interval (776) - increasing resumption interval to 777
+0746.988 (0) Dropbox chunked upload: 46.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 108003328)
+0749.258 (0) The time we have been running (749.2) is approaching the resumption interval (777) - increasing resumption interval to 780
+0749.286 (0) Dropbox chunked upload: 46.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 109051904)
+0750.938 (0) The time we have been running (750.5) is approaching the resumption interval (780) - increasing resumption interval to 781
+0750.946 (0) Dropbox chunked upload: 47.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 110100480)
+0752.291 (0) The time we have been running (752.3) is approaching the resumption interval (781) - increasing resumption interval to 783
+0752.300 (0) Dropbox chunked upload: 47.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 111149056)
+0753.824 (0) The time we have been running (753.8) is approaching the resumption interval (783) - increasing resumption interval to 784
+0753.864 (0) Dropbox chunked upload: 48.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 112197632)
+0755.786 (0) The time we have been running (755.8) is approaching the resumption interval (784) - increasing resumption interval to 786
+0755.797 (0) Dropbox chunked upload: 48.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 113246208)
+0756.882 (0) The time we have been running (756.9) is approaching the resumption interval (786) - increasing resumption interval to 787
+0756.900 (0) Dropbox chunked upload: 49.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 114294784)
+0758.267 (0) The time we have been running (758.2) is approaching the resumption interval (787) - increasing resumption interval to 789
+0758.276 (0) Dropbox chunked upload: 49.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 115343360)
+0759.877 (0) The time we have been running (759.9) is approaching the resumption interval (789) - increasing resumption interval to 790
+0759.898 (0) Dropbox chunked upload: 50.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 116391936)
+0762.365 (0) The time we have been running (762) is approaching the resumption interval (790) - increasing resumption interval to 793
+0762.581 (0) Dropbox chunked upload: 50.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 117440512)
+0763.819 (0) The time we have been running (763.8) is approaching the resumption interval (793) - increasing resumption interval to 794
+0763.829 (0) Dropbox chunked upload: 51 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 118489088)
+0765.654 (0) The time we have been running (765.6) is approaching the resumption interval (794) - increasing resumption interval to 796
+0765.689 (0) Dropbox chunked upload: 51.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 119537664)
+0767.415 (0) The time we have been running (767.4) is approaching the resumption interval (796) - increasing resumption interval to 798
+0767.453 (0) Dropbox chunked upload: 51.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 120586240)
+0769.271 (0) The time we have been running (769.2) is approaching the resumption interval (798) - increasing resumption interval to 800
+0769.303 (0) Dropbox chunked upload: 52.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 121634816)
+0770.523 (0) The time we have been running (770.5) is approaching the resumption interval (800) - increasing resumption interval to 801
+0770.535 (0) Dropbox chunked upload: 52.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 122683392)
+0772.285 (0) The time we have been running (772.3) is approaching the resumption interval (801) - increasing resumption interval to 803
+0772.299 (0) Dropbox chunked upload: 53.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 123731968)
+0773.948 (0) The time we have been running (773.9) is approaching the resumption interval (803) - increasing resumption interval to 804
+0773.975 (0) Dropbox chunked upload: 53.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 124780544)
+0776.118 (0) The time we have been running (776.1) is approaching the resumption interval (804) - increasing resumption interval to 807
+0776.206 (0) Dropbox chunked upload: 54.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 125829120)
+0777.383 (0) The time we have been running (777.4) is approaching the resumption interval (807) - increasing resumption interval to 808
+0777.399 (0) Dropbox chunked upload: 54.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 126877696)
+0779.620 (0) The time we have been running (779.6) is approaching the resumption interval (808) - increasing resumption interval to 810
+0779.652 (0) Dropbox chunked upload: 55.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 127926272)
+0781.358 (0) The time we have been running (781.3) is approaching the resumption interval (810) - increasing resumption interval to 812
+0781.376 (0) Dropbox chunked upload: 55.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 128974848)
+0786.463 (0) The time we have been running (786.4) is approaching the resumption interval (812) - increasing resumption interval to 817
+0786.477 (0) Dropbox chunked upload: 56 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 130023424)
+0787.561 (0) The time we have been running (787.5) is approaching the resumption interval (817) - increasing resumption interval to 818
+0787.570 (0) Dropbox chunked upload: 56.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 131072000)
+0789.051 (0) The time we have been running (789) is approaching the resumption interval (818) - increasing resumption interval to 820
+0789.063 (0) Dropbox chunked upload: 56.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 132120576)
+0790.662 (0) The time we have been running (790.6) is approaching the resumption interval (820) - increasing resumption interval to 821
+0790.673 (0) Dropbox chunked upload: 57.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 133169152)
+0792.875 (0) The time we have been running (792.9) is approaching the resumption interval (821) - increasing resumption interval to 823
+0793.063 (0) Dropbox chunked upload: 57.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 134217728)
+0794.673 (0) The time we have been running (794.5) is approaching the resumption interval (823) - increasing resumption interval to 825
+0794.783 (0) Dropbox chunked upload: 58.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 135266304)
+0796.189 (0) The time we have been running (796.2) is approaching the resumption interval (825) - increasing resumption interval to 827
+0796.205 (0) Dropbox chunked upload: 58.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 136314880)
+0797.621 (0) The time we have been running (797.6) is approaching the resumption interval (827) - increasing resumption interval to 828
+0797.633 (0) Dropbox chunked upload: 59.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 137363456)
+0799.526 (0) The time we have been running (799.5) is approaching the resumption interval (828) - increasing resumption interval to 830
+0799.535 (0) Dropbox chunked upload: 59.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 138412032)
+0800.691 (0) The time we have been running (800.7) is approaching the resumption interval (830) - increasing resumption interval to 831
+0800.700 (0) Dropbox chunked upload: 60 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 139460608)
+0802.089 (0) The time we have been running (802.1) is approaching the resumption interval (831) - increasing resumption interval to 833
+0802.108 (0) Dropbox chunked upload: 60.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 140509184)
+0803.713 (0) The time we have been running (803.7) is approaching the resumption interval (833) - increasing resumption interval to 834
+0803.731 (0) Dropbox chunked upload: 60.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 141557760)
+0805.873 (0) The time we have been running (805.8) is approaching the resumption interval (834) - increasing resumption interval to 836
+0805.899 (0) Dropbox chunked upload: 61.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 142606336)
+0807.146 (0) The time we have been running (807.1) is approaching the resumption interval (836) - increasing resumption interval to 838
+0807.153 (0) Dropbox chunked upload: 61.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 143654912)
+0808.498 (0) The time we have been running (808.5) is approaching the resumption interval (838) - increasing resumption interval to 839
+0808.507 (0) Dropbox chunked upload: 62.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 144703488)
+0810.057 (0) The time we have been running (810) is approaching the resumption interval (839) - increasing resumption interval to 841
+0810.072 (0) Dropbox chunked upload: 62.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 145752064)
+0812.727 (0) The time we have been running (812.7) is approaching the resumption interval (841) - increasing resumption interval to 843
+0812.736 (0) Dropbox chunked upload: 63.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 146800640)
+0813.900 (0) The time we have been running (813.9) is approaching the resumption interval (843) - increasing resumption interval to 844
+0813.912 (0) Dropbox chunked upload: 63.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 147849216)
+0815.264 (0) The time we have been running (815.3) is approaching the resumption interval (844) - increasing resumption interval to 846
+0815.274 (0) Dropbox chunked upload: 64.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 148897792)
+0816.884 (0) The time we have been running (816.9) is approaching the resumption interval (846) - increasing resumption interval to 847
+0816.898 (0) Dropbox chunked upload: 64.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 149946368)
+0819.205 (0) The time we have been running (819.1) is approaching the resumption interval (847) - increasing resumption interval to 850
+0819.251 (0) Dropbox chunked upload: 65 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 150994944)
+0820.298 (0) The time we have been running (820.3) is approaching the resumption interval (850) - increasing resumption interval to 851
+0820.319 (0) Dropbox chunked upload: 65.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 152043520)
+0821.769 (0) The time we have been running (821.7) is approaching the resumption interval (851) - increasing resumption interval to 852
+0821.836 (0) Dropbox chunked upload: 65.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 153092096)
+0823.334 (0) The time we have been running (823.3) is approaching the resumption interval (852) - increasing resumption interval to 854
+0823.347 (0) Dropbox chunked upload: 66.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 154140672)
+0825.214 (0) The time we have been running (825.2) is approaching the resumption interval (854) - increasing resumption interval to 856
+0825.222 (0) Dropbox chunked upload: 66.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 155189248)
+0826.795 (0) The time we have been running (826.5) is approaching the resumption interval (856) - increasing resumption interval to 857
+0826.920 (0) Dropbox chunked upload: 67.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 156237824)
+0829.177 (0) The time we have been running (829.1) is approaching the resumption interval (857) - increasing resumption interval to 860
+0829.188 (0) Dropbox chunked upload: 67.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 157286400)
+0830.927 (0) The time we have been running (830.9) is approaching the resumption interval (860) - increasing resumption interval to 861
+0830.968 (0) Dropbox chunked upload: 68.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 158334976)
+0833.652 (0) The time we have been running (833.6) is approaching the resumption interval (861) - increasing resumption interval to 864
+0833.660 (0) Dropbox chunked upload: 68.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 159383552)
+0834.876 (0) The time we have been running (834.9) is approaching the resumption interval (864) - increasing resumption interval to 865
+0834.890 (0) Dropbox chunked upload: 69 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 160432128)
+0836.194 (0) The time we have been running (836.2) is approaching the resumption interval (865) - increasing resumption interval to 867
+0836.231 (0) Dropbox chunked upload: 69.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 161480704)
+0837.853 (0) The time we have been running (837.8) is approaching the resumption interval (867) - increasing resumption interval to 868
+0837.871 (0) Dropbox chunked upload: 69.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 162529280)
+0841.262 (0) The time we have been running (841.3) is approaching the resumption interval (868) - increasing resumption interval to 872
+0841.270 (0) Dropbox chunked upload: 70.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 163577856)
+0843.015 (0) The time we have been running (843) is approaching the resumption interval (872) - increasing resumption interval to 873
+0843.027 (0) Dropbox chunked upload: 70.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 164626432)
+0844.909 (0) The time we have been running (844.9) is approaching the resumption interval (873) - increasing resumption interval to 875
+0844.920 (0) Dropbox chunked upload: 71.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 165675008)
+0846.300 (0) The time we have been running (846.3) is approaching the resumption interval (875) - increasing resumption interval to 877
+0846.327 (0) Dropbox chunked upload: 71.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 166723584)
+0848.168 (0) The time we have been running (848.2) is approaching the resumption interval (877) - increasing resumption interval to 879
+0848.185 (0) Dropbox chunked upload: 72.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 167772160)
+0849.383 (0) The time we have been running (849.4) is approaching the resumption interval (879) - increasing resumption interval to 880
+0849.391 (0) Dropbox chunked upload: 72.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 168820736)
+0850.746 (0) The time we have been running (850.7) is approaching the resumption interval (880) - increasing resumption interval to 881
+0850.760 (0) Dropbox chunked upload: 73.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 169869312)
+0852.569 (0) The time we have been running (852.6) is approaching the resumption interval (881) - increasing resumption interval to 883
+0852.625 (0) Dropbox chunked upload: 73.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 170917888)
+0854.432 (0) The time we have been running (854.4) is approaching the resumption interval (883) - increasing resumption interval to 885
+0854.442 (0) Dropbox chunked upload: 74 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 171966464)
+0855.628 (0) The time we have been running (855.6) is approaching the resumption interval (885) - increasing resumption interval to 886
+0855.656 (0) Dropbox chunked upload: 74.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 173015040)
+0857.116 (0) The time we have been running (857.1) is approaching the resumption interval (886) - increasing resumption interval to 888
+0857.132 (0) Dropbox chunked upload: 74.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 174063616)
+0858.769 (0) The time we have been running (858.7) is approaching the resumption interval (888) - increasing resumption interval to 889
+0858.783 (0) Dropbox chunked upload: 75.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 175112192)
+0861.606 (0) The time we have been running (861.5) is approaching the resumption interval (889) - increasing resumption interval to 892
+0861.623 (0) Dropbox chunked upload: 75.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 176160768)
+0862.706 (0) The time we have been running (862.7) is approaching the resumption interval (892) - increasing resumption interval to 893
+0862.716 (0) Dropbox chunked upload: 76.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 177209344)
+0864.823 (0) The time we have been running (864.8) is approaching the resumption interval (893) - increasing resumption interval to 895
+0864.831 (0) Dropbox chunked upload: 76.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 178257920)
+0866.446 (0) The time we have been running (866.4) is approaching the resumption interval (895) - increasing resumption interval to 897
+0866.461 (0) Dropbox chunked upload: 77.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 179306496)
+0869.822 (0) The time we have been running (869.8) is approaching the resumption interval (897) - increasing resumption interval to 900
+0869.831 (0) Dropbox chunked upload: 77.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 180355072)
+0871.163 (0) The time we have been running (871.1) is approaching the resumption interval (900) - increasing resumption interval to 902
+0871.172 (0) Dropbox chunked upload: 78.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 181403648)
+0872.514 (0) The time we have been running (872.5) is approaching the resumption interval (902) - increasing resumption interval to 903
+0872.524 (0) Dropbox chunked upload: 78.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 182452224)
+0874.582 (0) The time we have been running (874.6) is approaching the resumption interval (903) - increasing resumption interval to 905
+0874.595 (0) Dropbox chunked upload: 79 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 183500800)
+0876.325 (0) The time we have been running (876.3) is approaching the resumption interval (905) - increasing resumption interval to 907
+0876.351 (0) Dropbox chunked upload: 79.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 184549376)
+0877.552 (0) The time we have been running (877.5) is approaching the resumption interval (907) - increasing resumption interval to 908
+0877.568 (0) Dropbox chunked upload: 79.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 185597952)
+0878.841 (0) The time we have been running (878.8) is approaching the resumption interval (908) - increasing resumption interval to 909
+0878.848 (0) Dropbox chunked upload: 80.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 186646528)
+0880.419 (0) The time we have been running (880.4) is approaching the resumption interval (909) - increasing resumption interval to 911
+0880.430 (0) Dropbox chunked upload: 80.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 187695104)
+0883.307 (0) The time we have been running (883.2) is approaching the resumption interval (911) - increasing resumption interval to 914
+0883.336 (0) Dropbox chunked upload: 81.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 188743680)
+0884.449 (0) The time we have been running (884.4) is approaching the resumption interval (914) - increasing resumption interval to 915
+0884.460 (0) Dropbox chunked upload: 81.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 189792256)
+0885.708 (0) The time we have been running (885.7) is approaching the resumption interval (915) - increasing resumption interval to 916
+0885.719 (0) Dropbox chunked upload: 82.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 190840832)
+0887.601 (0) The time we have been running (887.6) is approaching the resumption interval (916) - increasing resumption interval to 918
+0887.614 (0) Dropbox chunked upload: 82.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 191889408)
+0890.415 (0) The time we have been running (890.4) is approaching the resumption interval (918) - increasing resumption interval to 921
+0890.425 (0) Dropbox chunked upload: 83 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 192937984)
+0892.267 (0) The time we have been running (892.2) is approaching the resumption interval (921) - increasing resumption interval to 923
+0892.413 (0) Dropbox chunked upload: 83.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 193986560)
+0893.866 (0) The time we have been running (893.7) is approaching the resumption interval (923) - increasing resumption interval to 924
+0894.093 (0) Dropbox chunked upload: 83.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 195035136)
+0895.934 (0) The time we have been running (895.9) is approaching the resumption interval (924) - increasing resumption interval to 926
+0895.949 (0) Dropbox chunked upload: 84.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 196083712)
+0898.034 (0) The time we have been running (898) is approaching the resumption interval (926) - increasing resumption interval to 929
+0898.054 (0) Dropbox chunked upload: 84.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 197132288)
+0899.306 (0) The time we have been running (899.3) is approaching the resumption interval (929) - increasing resumption interval to 930
+0899.317 (0) Dropbox chunked upload: 85.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 198180864)
+0900.605 (0) The time we have been running (900.6) is approaching the resumption interval (930) - increasing resumption interval to 931
+0900.618 (0) Dropbox chunked upload: 85.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 199229440)
+0902.533 (0) The time we have been running (902.5) is approaching the resumption interval (931) - increasing resumption interval to 933
+0902.543 (0) Dropbox chunked upload: 86.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 200278016)
+0905.463 (0) The time we have been running (905.4) is approaching the resumption interval (933) - increasing resumption interval to 936
+0905.473 (0) Dropbox chunked upload: 86.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 201326592)
+0906.749 (0) The time we have been running (906.7) is approaching the resumption interval (936) - increasing resumption interval to 937
+0906.763 (0) Dropbox chunked upload: 87.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 202375168)
+0908.261 (0) The time we have been running (908.2) is approaching the resumption interval (937) - increasing resumption interval to 939
+0908.274 (0) Dropbox chunked upload: 87.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 203423744)
+0910.470 (0) The time we have been running (910.5) is approaching the resumption interval (939) - increasing resumption interval to 941
+0910.478 (0) Dropbox chunked upload: 88 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 204472320)
+0913.030 (0) The time we have been running (913) is approaching the resumption interval (941) - increasing resumption interval to 944
+0913.042 (0) Dropbox chunked upload: 88.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 205520896)
+0914.306 (0) The time we have been running (914.3) is approaching the resumption interval (944) - increasing resumption interval to 945
+0914.323 (0) Dropbox chunked upload: 88.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 206569472)
+0915.807 (0) The time we have been running (915.8) is approaching the resumption interval (945) - increasing resumption interval to 946
+0915.822 (0) Dropbox chunked upload: 89.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 207618048)
+0917.527 (0) The time we have been running (917.5) is approaching the resumption interval (946) - increasing resumption interval to 948
+0917.536 (0) Dropbox chunked upload: 89.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 208666624)
+0919.417 (0) The time we have been running (919.4) is approaching the resumption interval (948) - increasing resumption interval to 950
+0919.430 (0) Dropbox chunked upload: 90.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 209715200)
+0920.632 (0) The time we have been running (920.6) is approaching the resumption interval (950) - increasing resumption interval to 951
+0920.646 (0) Dropbox chunked upload: 90.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 210763776)
+0922.066 (0) The time we have been running (922) is approaching the resumption interval (951) - increasing resumption interval to 953
+0922.080 (0) Dropbox chunked upload: 91.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 211812352)
+0923.558 (0) The time we have been running (923.5) is approaching the resumption interval (953) - increasing resumption interval to 954
+0923.573 (0) Dropbox chunked upload: 91.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 212860928)
+0925.369 (0) The time we have been running (925.4) is approaching the resumption interval (954) - increasing resumption interval to 956
+0925.382 (0) Dropbox chunked upload: 92.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 213909504)
+0926.651 (0) The time we have been running (926.6) is approaching the resumption interval (956) - increasing resumption interval to 957
+0926.666 (0) Dropbox chunked upload: 92.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 214958080)
+0928.308 (0) The time we have been running (928.3) is approaching the resumption interval (957) - increasing resumption interval to 959
+0928.319 (0) Dropbox chunked upload: 93 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 216006656)
+0930.445 (0) The time we have been running (930.4) is approaching the resumption interval (959) - increasing resumption interval to 961
+0930.464 (0) Dropbox chunked upload: 93.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 217055232)
+0932.213 (0) The time we have been running (932.2) is approaching the resumption interval (961) - increasing resumption interval to 963
+0932.237 (0) Dropbox chunked upload: 93.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 218103808)
+0933.337 (0) The time we have been running (933.3) is approaching the resumption interval (963) - increasing resumption interval to 964
+0933.357 (0) Dropbox chunked upload: 94.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 219152384)
+0934.650 (0) The time we have been running (934.6) is approaching the resumption interval (964) - increasing resumption interval to 965
+0934.678 (0) Dropbox chunked upload: 94.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 220200960)
+0936.283 (0) The time we have been running (936.3) is approaching the resumption interval (965) - increasing resumption interval to 967
+0936.297 (0) Dropbox chunked upload: 95.2 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 221249536)
+0938.973 (0) The time we have been running (939) is approaching the resumption interval (967) - increasing resumption interval to 969
+0938.994 (0) Dropbox chunked upload: 95.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 222298112)
+0940.095 (0) The time we have been running (940.1) is approaching the resumption interval (969) - increasing resumption interval to 971
+0940.103 (0) Dropbox chunked upload: 96.1 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 223346688)
+0941.587 (0) The time we have been running (941.6) is approaching the resumption interval (971) - increasing resumption interval to 972
+0941.597 (0) Dropbox chunked upload: 96.6 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 224395264)
+0943.504 (0) The time we have been running (943.5) is approaching the resumption interval (972) - increasing resumption interval to 974
+0943.518 (0) Dropbox chunked upload: 97 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 225443840)
+0945.385 (0) The time we have been running (945.4) is approaching the resumption interval (974) - increasing resumption interval to 976
+0945.394 (0) Dropbox chunked upload: 97.5 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 226492416)
+0946.574 (0) The time we have been running (946.6) is approaching the resumption interval (976) - increasing resumption interval to 977
+0946.582 (0) Dropbox chunked upload: 97.9 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 227540992)
+0947.990 (0) The time we have been running (948) is approaching the resumption interval (977) - increasing resumption interval to 978
+0948.001 (0) Dropbox chunked upload: 98.4 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 228589568)
+0949.610 (0) The time we have been running (949.6) is approaching the resumption interval (978) - increasing resumption interval to 980
+0949.633 (0) Dropbox chunked upload: 98.8 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 229638144)
+0951.937 (0) The time we have been running (951.9) is approaching the resumption interval (980) - increasing resumption interval to 982
+0951.979 (0) Dropbox chunked upload: 99.3 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 230686720)
+0953.397 (0) The time we have been running (953.3) is approaching the resumption interval (982) - increasing resumption interval to 984
+0953.413 (0) Dropbox chunked upload: 99.7 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 231735296)
+0954.755 (0) The time we have been running (954.7) is approaching the resumption interval (984) - increasing resumption interval to 985
+0954.780 (0) Dropbox chunked upload: 100 % uploaded (obVPzu_vUxtBDrDyvMm1iQ, 232352190)
+0956.378 (0) Recording as successfully uploaded: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip (4e415102ace388ec7a4f711ace748e1f)
+0956.770 (0) Deleting local file: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip: OK
+0956.844 (0) Dropbox: File upload success (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-uploads.zip): 226906 Kb in 391s (579 Kb/s)
+0957.410 (0) Dropbox quota usage: normal=646.1 Mb, shared=0 Mb, total=2560 Mb, available=1913.9 Mb
+0957.465 (0) Dropbox: Attempt to upload: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-others.zip to: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-others.zip
+0958.682 (0) The time we have been running (958.6) is approaching the resumption interval (985) - increasing resumption interval to 989
+0958.705 (0) Dropbox chunked upload: 100 % uploaded (2JdLxHtl1WGRuZUS97j4hg, 478518)
+0959.813 (0) Recording as successfully uploaded: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-others.zip (1a15c1eb226dbb83381e4a05dde3ee51)
+0959.857 (0) Deleting local file: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-others.zip: OK
+0959.866 (0) Dropbox: File upload success (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-others.zip): 467 Kb in 2s (194 Kb/s)
+0960.394 (0) Dropbox quota usage: normal=646.6 Mb, shared=0 Mb, total=2560 Mb, available=1913.4 Mb
+0960.432 (0) Dropbox: Attempt to upload: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db.gz to: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db.gz
+0961.560 (0) The time we have been running (961.5) is approaching the resumption interval (989) - increasing resumption interval to 992
+0961.588 (0) Dropbox chunked upload: 100 % uploaded (OW7ZzFjWKGNs6kpFryTW9A, 333581)
+0963.259 (0) Recording as successfully uploaded: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db.gz (a3d116f20a33cd747e1b100a2f31d506)
+0963.298 (0) Deleting local file: backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db.gz: OK
+0963.304 (0) Dropbox: File upload success (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db.gz): 325 Kb in 2s (113 Kb/s)
+0963.336 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0963.355 (0) Number of backup sets in history: 1
+0963.366 (0) Examining backup set with datestamp: 1428702970 (Apr 10 2015 21:56:10)
+0963.383 (0) 1428702970: db: this set includes a database (backup_2015-04-11-0356_Lublu___b9bd52eff4f0-db.gz); db count is now 1
+0963.436 (0) The time we have been running (963.4) is approaching the resumption interval (992) - increasing resumption interval to 994
+0963.445 (0) 1428702970: this backup set remains non-empty (1/1); will retain in history
+0963.450 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0963.458 (0) Resume backup (b9bd52eff4f0, 0): finish run
+0963.493 (0) Decremented the semaphore (fd) by 1
+0963.522 (0) Semaphore (fd) unlocked
+0963.536 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0963.560 (0) The backup apparently succeeded and is now complete
+0963.570 (0) No email will/can be sent - the user has not configured an email address.
+0963.582 (0) Резервное копирование успешно завершено
